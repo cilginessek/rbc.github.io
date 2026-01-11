@@ -1,0 +1,59 @@
+/* Ana Renk Tanımları - Senin istediğin palet */
+:root {
+    --primary-color: #002B5E;    /* Koyu Lacivert Başlıklar */
+    --accent-color: #008080;     /* Turkuaz Vurgular */
+    --text-color: #333333;       /* Genel Okuma Metni */
+    --bg-color: #ffffff;         /* Arka Plan */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero (Üst Karşılama) Alanı Özel Tasarımı */
+.hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f9f9; /* Çok açık turkuazımsı gri arka plan */
+    border-bottom: 3px solid var(--accent-color);
+    margin-bottom: 30px;
+}
+
+.hero-section h1 {
+    color: var(--primary-color);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Profil Fotoğrafı Ayarları */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* Yuvarlak yapar */
+    border: 5px solid var(--accent-color); /* Etrafına turkuaz çerçeve */
+    margin-top: 20px;
+}
+
+/* Liste maddelerini güzelleştirelim */
+ul li {
+    margin-bottom: 10px;
+    list-style-type: square;
+    color: var(--primary-color);
+}
