@@ -1,0 +1,16 @@
+title: "Adınız Soyadınız - Dil ve Konuşma Terapisti"
+description: "Uzman Dil ve Konuşma Terapisi Hizmetleri. Kekemelik, artikülasyon ve dil bozuklukları terapisi."
+url: "https://siteninadi.github.io" # Kendi repo adını yaz
+
+# İletişim Bilgileri (Sitede görünecek)
+email: "mailadresin@ornek.com"
+phone: "0555 000 00 00"
+address: "Örnek Mahallesi, Sağlık Caddesi No:1, Şehir"
+linkedin_username: "kullaniciadin" # Yoksa bu satırı sil
+instagram_username: "kullaniciadin" # Yoksa bu satırı sil
+
+# Site Ayarları (Dokunma)
+markdown: kramdown
+theme: jekyll-theme-primer # Başlangıç için çok sade bir temel kullanıyoruz
+plugins:
+  - jekyll-seo-tag
